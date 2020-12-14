@@ -4,6 +4,10 @@ A todo-list application, made using flutter
 
 ## ChangeLog:
 
+### v todonhut
+- Change front-end
+    - Add Gif to main background
+
 ### v 1.7.4
 - Fixed minor bugs:
     - Blank task was crashing app.
