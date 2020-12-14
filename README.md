@@ -7,6 +7,7 @@ A todo-list application, made using flutter
 ### v todonhut
 - Change front-end
     - Add Gif to main background
+    - Change package name, ready to add more modules
 
 ### v 1.7.4
 - Fixed minor bugs:
