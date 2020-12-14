@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:todoey/models/task_data.dart';
-import 'package:todoey/screens/add_task_screen.dart';
-import 'package:todoey/screens/app_info_screen.dart';
-import 'package:todoey/screens/settings_screen.dart';
-import 'package:todoey/screens/tasks_screen.dart';
+import 'package:todonhut/models/task_data.dart';
+import 'package:todonhut/screens/add_task_screen.dart';
+import 'package:todonhut/screens/app_info_screen.dart';
+import 'package:todonhut/screens/settings_screen.dart';
+import 'package:todonhut/screens/tasks_screen.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 

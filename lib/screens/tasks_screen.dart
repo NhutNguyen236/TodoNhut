@@ -3,11 +3,11 @@ import 'dart:ui';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:todoey/screens/add_task_screen.dart';
-import 'package:todoey/screens/app_info_screen.dart';
-import 'package:todoey/screens/settings_screen.dart';
-import 'package:todoey/widgets/tasks_list.dart' hide localStorage;
-import 'package:todoey/models/task_data.dart';
+import 'package:todonhut/screens/add_task_screen.dart';
+import 'package:todonhut/screens/app_info_screen.dart';
+import 'package:todonhut/screens/settings_screen.dart';
+import 'package:todonhut/widgets/tasks_list.dart' hide localStorage;
+import 'package:todonhut/models/task_data.dart';
 import 'dart:ui' as ui;
 
 class TasksScreen extends StatelessWidget {
@@ -42,7 +42,7 @@ class TasksScreen extends StatelessWidget {
           ),
         ),
       ),
-      backgroundColor: Colors.teal,
+      backgroundColor: Colors.lightGreen,
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           showModalBottomSheet(
@@ -57,7 +57,7 @@ class TasksScreen extends StatelessWidget {
             ),
           );
         },
-        backgroundColor: Colors.lightBlueAccent,
+        backgroundColor: Colors.cyan,
         child: Icon(Icons.bolt),
       ),
       body: FutureBuilder(

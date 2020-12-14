@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:localstorage/localstorage.dart';
 import 'package:provider/provider.dart';
-import 'package:todoey/models/task.dart';
-import 'package:todoey/models/task_data.dart';
-import 'package:todoey/widgets/task_tile.dart';
+import 'package:todonhut/models/task.dart';
+import 'package:todonhut/models/task_data.dart';
+import 'package:todonhut/widgets/task_tile.dart';
 import 'dart:ui' as ui;
 
 final LocalStorage localStorage = LocalStorage('toDoList.json');
@@ -112,15 +112,15 @@ class TasksList extends StatelessWidget {
                       ));
                     },
                     background: Container(
-                      color: Colors.deepOrange,
-                      padding: EdgeInsets.only(left: 20.0),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.start,
-                        crossAxisAlignment: CrossAxisAlignment.center,
-                        children: <Widget>[
-                          Icon(
-                            Icons.delete,
-                            color: Colors.white,
+                  color: Colors.deepOrange,
+                  padding: EdgeInsets.only(left: 20.0),
+                  child: Row(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: <Widget>[
+                  Icon(
+                  Icons.delete,
+                  color: Colors.white,
                           ),
                         ],
                       ),
